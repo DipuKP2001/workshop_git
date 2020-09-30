@@ -1,0 +1,85 @@
+*{
+    margin: 0px; padding: 0px; box-sizing: border-box;
+   }
+   
+   body{
+    background-image:linear-gradient(rgba(236, 168, 20, 0.37),rgba(236, 229, 229, 0.534)), url('background.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+   }
+   
+   nav{
+    background-color: #10FF96;
+    height: 60px;
+    width: 100%;
+   }
+   nav ul{
+    margin-left: 40px;
+   }
+   
+   nav ul li {
+    list-style: none;
+    display: inline;
+   }
+   
+   nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    padding: 10px;
+    line-height: 60px;
+    margin: 10px;
+    font-weight: bold;
+   }
+   
+   nav ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+    border-radius: 5px;
+   }
+   
+   #heading{
+    padding-top: 200px;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-family: verdana;
+   }
+   
+   span{
+    color: #10FF96;
+   }
+   
+   #btn1{
+    margin-top: 10px;
+    margin-left: 38%;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: #10FF96;
+    color: #000;
+    font-size: 17px;
+    border: none;
+   }
+   
+   #btn2{
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: #10FF96;
+    color: #000;
+    font-size: 17px;
+    border: none;
+   }
+   
+   
+   #btn1:hover,#btn2:hover{
+    transition: 0.5s;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #10FF96;
+   }
